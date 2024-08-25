@@ -1,8 +1,8 @@
 const server = {
-  openAIAPIKey: required(process.env.OPENAI_API_KEY, "asst_XZqf46Wxz4XL9pI7VHraZQEi"),
+  openAIAPIKey: required(process.env.OPENAI_API_KEY, "sk-U7KqWJD_hRgfobyuzRCBhClONupWt27T_A5l1A-RtaT3BlbkFJyiet7i8KrDtErujKiu_qGd9LyO9VuJX81QEtfpBCwA"),
   openAIAPIBaseURL: fillDefault(
     process.env.OPENAI_API_BASE_URL,
-    "https://api.openai.com/v1/assistants"
+   "https://api.openai.com/v1/chat/completions"
   ),
   systemMessage: optional(process.env.SYSTEM_MESSAGE),
   messageTemplate: optional(process.env.MESSAGE_TEMPLATE),
