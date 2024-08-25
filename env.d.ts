@@ -10,9 +10,9 @@ declare global {
             appSummary: string;
             exampleInput: string;
 
-            OPENAI_API_KEY: string;
-            OPENAI_API_BASE_URL: string;
-            SYSTEM_MESSAGE: string;
+            OPENAI_API_KEY: "prj_Ku0gNzIDeFfk39b33TAajtE48aJu";
+            OPENAI_API_BASE_URL: "https://api.openai.com";
+            SYSTEM_MESSAGE: "hello";
             MESSAGE_TEMPLATE: string;
         }
     }
