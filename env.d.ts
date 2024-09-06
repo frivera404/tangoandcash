@@ -4,7 +4,7 @@ declare global {
             // Server-side environment variables should be named using uppercase
             // letters only, while camelCase naming convention should be used
             // for variables shared by both the client-side and server-side.
-            appName: "tangoandcash";
+            appName: "Tango_and_Cash";
             appLogo: "AA";
             appThemeColor: "#22c55e";
             appSummary: "THIS APPLICATION IS DESIGNED TO HELP USERS EFFICIENTLY MANAGE AND AUTOMATE THEIR TASKS. WITH ADVANCED FEATURES LIKE AI-DRIVEN ASSISTANCE, CUSTOMIZABLE WORKFLOWS, AND REAL-TIME NOTIFICATIONS, USERS CAN STREAMLINE THEIR DAILY OPERATIONS AND FOCUS ON WHAT MATTERS MOST.";
