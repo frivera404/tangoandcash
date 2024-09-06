@@ -8,6 +8,6 @@ const client = {
 
 export default client;
 
-function fillDefault(Value, defaultValue) {
+function fillDefault(value: string | undefined, defaultValue: string): string {
   return !value ? defaultValue : value;
 }
