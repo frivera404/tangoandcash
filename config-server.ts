@@ -1,5 +1,5 @@
 const server = {
-  openAIAPIKey: required(process.env.OPENAI_API_KEY, "sk-U7KqWJD_hRgfobyuzRCBhClONupWt27T_A5l1A-RtaT3BlbkFJyiet7i8KrDtErujKiu_qGd9LyO9VuJX81QEtfpBCwA"),
+  openAIAPIKey: required(process.env.OPENAI_API_KEY, "OPENAI_API_KEY"),
   openAIAPIBaseURL: fillDefault(
     process.env.OPENAI_API_BASE_URL,
    "https://chatgpt.com/g/g-gqVbcFKSK-tiktook-automation"
