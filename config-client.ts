@@ -1,5 +1,5 @@
 const client = {
-  appName: fillDefault(process.env.appName, "Alex Agent"),
+  appName: fillDefault(process.env.appName, "Tango & Cash"),
   appLogo: fillDefault(process.env.appLogo, "Alex Agent.png"),
   appThemeColor: fillDefault(process.env.appThemeColor, "#22c55e"),
   appSummary: fillDefault(process.env.appSummary, "Streamline agent management with our powerful app. Manage marketing tasks, lead generation, and API connections efficiently. Optimize workflows, monitor performance, and enhance productivity across all channels. Designed for agent supervisors, this app simplifies the complexities of agent management, enabling you to focus on growth."),
