@@ -2,7 +2,7 @@
 declare namespace NodeJS {
   interface ProcessEnv {
     appName: "tango_and_cash"; // app name as string
-    appLogo: "Alex Agent.png"; // logo as string
+    appLogo: "https://github.com/frivera404/tangoandcash/blob/main/public/favicon_32x32.png"; // logo as string
     appThemeColor: "#22c55e"; // theme color as string (hex code)
     appSummary: "THIS APPLICATION IS DESIGNED TO HELP USERS EFFICIENTLY MANAGE AND AUTOMATE THEIR TASKS. WITH ADVANCED FEATURES LIKE AI-DRIVEN ASSISTANCE, CUSTOMIZABLE WORKFLOWS, AND REAL-TIME NOTIFICATIONS, USERS CAN STREAMLINE THEIR DAILY OPERATIONS AND FOCUS ON WHAT MATTERS MOST."; // app summary as string
     exampleInput: "Please enter your query here."; // example input as string
